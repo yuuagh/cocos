@@ -1,0 +1,434 @@
+﻿生成启动时间为 2014/9/15 0:38:51。
+     1>项目“F:\git_MyProject\cocos\OurProject\proj.win32\OurProject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\ /I"F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\editor-support" /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\gui /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\audio\include /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\external /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\2d /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\2d\renderer /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\ui /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\base /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\physics /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\math\kazmath /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /IF:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\GameUILayer.cpp ..\Classes\GuiMgr.cpp ..\Classes\GuiMgr_HomePage.cpp ..\Classes\HelloWorldScene.cpp ..\Classes\HomePage.cpp ..\Classes\ParserManager.cpp ..\Classes\TxtReader.cpp main.cpp
+         AppDelegate.cpp
+         GameUILayer.cpp
+         GuiMgr.cpp
+         GuiMgr_HomePage.cpp
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GuiMgr_HomePage.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GuiMgr.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\appdelegate.cpp(36): warning C4996: 'cocos2d::kResolutionShowAll': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(972) : 参见“cocos2d::kResolutionShowAll”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(26): warning C4996: 'cocos2d::CCPointZero': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(394) : 参见“cocos2d::CCPointZero”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(27): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\ccdirector.h(118) : 参见“cocos2d::Director::sharedDirector”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(28): warning C4996: 'cocos2d::CCSize': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(773) : 参见“cocos2d::CCSize”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(28): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\ccdirector.h(118) : 参见“cocos2d::Director::sharedDirector”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(31): warning C4996: 'cocos2d::CCSize': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(773) : 参见“cocos2d::CCSize”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(146): warning C4996: 'cocos2d::SpriteFrameCache::sharedSpriteFrameCache': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\ccspriteframecache.h(67) : 参见“cocos2d::SpriteFrameCache::sharedSpriteFrameCache”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\guimgr.cpp(147): warning C4996: 'cocos2d::TextureCache::sharedTextureCache': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\cctexturecache.h(71) : 参见“cocos2d::TextureCache::sharedTextureCache”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.cpp(12): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.cpp(23): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\ccdirector.h(118) : 参见“cocos2d::Director::sharedDirector”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.cpp(140): warning C4996: 'cocos2d::Layer::setTouchEnabled': 被声明为已否决
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\2d\cclayer.h(119) : 参见“cocos2d::Layer::setTouchEnabled”的声明
+     1>c:\program files\microsoft visual studio 12.0\vc\include\list(891): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(889): 编译类 模板 成员函数“std::list<cocos2d::CCAction *,std::allocator<_Ty>>::list(void)”时
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+                 ]
+                 f:\git_myproject\cocos\ourproject\classes\gameuilayer.cpp(12): 参见对正在编译的函数 模板 实例化“std::list<cocos2d::CCAction *,std::allocator<_Ty>>::list(void)”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+                 ]
+                 f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(215): 参见对正在编译的类 模板 实例化“std::list<cocos2d::CCAction *,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+                 ]
+     1>c:\program files\microsoft visual studio 12.0\vc\include\list(1919): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(1913): 编译类 模板 成员函数“void std::list<cocos2d::CCAction *,std::allocator<_Ty>>::_Orphan_ptr(std::list<_Ty,std::allocator<_Ty>> &,std::_List_node<cocos2d::Action *,void *> *) const”时
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(1493): 参见对正在编译的函数 模板 实例化“void std::list<cocos2d::CCAction *,std::allocator<_Ty>>::_Orphan_ptr(std::list<_Ty,std::allocator<_Ty>> &,std::_List_node<cocos2d::Action *,void *> *) const”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+                 ]
+     1>c:\program files\microsoft visual studio 12.0\vc\include\list(852): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(846): 编译类 模板 成员函数“void std::_List_buy<_Ty,_Alloc>::_Freenode(std::_List_node<cocos2d::Action *,void *> *)”时
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(1504): 参见对正在编译的函数 模板 实例化“void std::_List_buy<_Ty,_Alloc>::_Freenode(std::_List_node<cocos2d::Action *,void *> *)”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(862): 参见对正在编译的类 模板 实例化“std::_List_buy<_Ty,_Alloc>”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+     1>c:\program files\microsoft visual studio 12.0\vc\include\list(533): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(532): 编译类 模板 成员函数“std::_List_node<cocos2d::Action *,void *> *&std::_List_val<std::_List_simple_types<cocos2d::Action *>>::_Nextnode(std::_List_node<cocos2d::Action *,void *> *)”时
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(1496): 参见对正在编译的函数 模板 实例化“std::_List_node<cocos2d::Action *,void *> *&std::_List_val<std::_List_simple_types<cocos2d::Action *>>::_Nextnode(std::_List_node<cocos2d::Action *,void *> *)”的引用
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(691): 参见对正在编译的类 模板 实例化“std::_List_val<std::_List_simple_types<cocos2d::Action *>>”的引用
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(814): 参见对正在编译的类 模板 实例化“std::_List_alloc<false,std::_List_base_types<_Ty,_Alloc>>”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+     1>c:\program files\microsoft visual studio 12.0\vc\include\xmemory0(879): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(852): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::destroy<_Ty>(_Ty *)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Ty=cocos2d::Action *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(852): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::destroy<_Ty>(_Ty *)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Ty=cocos2d::Action *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(846): 编译类 模板 成员函数“void std::_List_buy<_Ty,_Alloc>::_Freenode(std::_List_node<cocos2d::Action *,void *> *)”时
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(1504): 参见对正在编译的函数 模板 实例化“void std::_List_buy<_Ty,_Alloc>::_Freenode(std::_List_node<cocos2d::Action *,void *> *)”的引用
+                 with
+                 [
+                     _Ty=cocos2d::CCAction *
+         ,            _Alloc=std::allocator<cocos2d::Action *>
+                 ]
+     1>c:\program files\microsoft visual studio 12.0\vc\include\xmemory0(730): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\GameUILayer.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+                 c:\program files\microsoft visual studio 12.0\vc\include\xmemory0(879): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::destroy<_Ty>(std::allocator<_Other> &,_Uty *)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<cocos2d::Action *,void *>>
+         ,            _Ty=cocos2d::Action *
+         ,            _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Uty=cocos2d::Action *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\xmemory0(879): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::destroy<_Ty>(std::allocator<_Other> &,_Uty *)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<cocos2d::Action *,void *>>
+         ,            _Ty=cocos2d::Action *
+         ,            _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Uty=cocos2d::Action *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(852): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::destroy<_Ty>(_Ty *)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Ty=cocos2d::Action *
+                 ]
+                 c:\program files\microsoft visual studio 12.0\vc\include\list(852): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::destroy<_Ty>(_Ty *)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<cocos2d::Action *,void *>
+         ,            _Ty=cocos2d::Action *
+                 ]
+         HelloWorldScene.cpp
+         HomePage.cpp
+         ParserManager.cpp
+         TxtReader.cpp
+         main.cpp
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\HomePage.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+     1>f:\git_myproject\cocos\ourproject\classes\gameuilayer.h(169): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 f:\git_myproject\cocos\ourproject\cocos2d\cocos\deprecated\ccdeprecated.h(558) : 参见“cocos2d::CCAction”的声明
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\" mkdir "F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\OurProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\..\..\build\Debug.win32 /LIBPATH:F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\ /LIBPATH:F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\ libGUI.lib libCocosStudio.lib libExtensions.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\OurProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\OurProject.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\GameUILayer.obj
+         Debug.win32\GuiMgr.obj
+         Debug.win32\GuiMgr_HomePage.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\HomePage.obj
+         Debug.win32\ParserManager.obj
+         Debug.win32\TxtReader.obj
+         Debug.win32\main.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\edtaa3func.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\tinyxml2.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ioapi.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\unzip.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\xxhash.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\atitc.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAffineTransform.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAutoreleasePool.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCConsole.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCData.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDataVisitor.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGeometry.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCNS.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCRef.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCValue.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\etc1.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\s3tc.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCArray.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDeprecated.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDictionary.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCNotificationCenter.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSet.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCString.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\aabb.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\mat4stack.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\matrix.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\mat3.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\mat4.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\neon_matrix_impl.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\plane.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\quaternion.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ray2.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ray3.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\utility.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\vec2.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\vec3.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\vec4.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsBody.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsContact.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsShape.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsWorld.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsBodyInfo_chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsContactInfo_chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsJointInfo_chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsShapeInfo_chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCPhysicsWorldInfo_chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\base64.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAction.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionCamera.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionCatmullRom.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionEase.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionGrid.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionGrid3D.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionInstant.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionInterval.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionManager.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionPageTurn3D.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionProgressTimer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionTiledGrid.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCActionTween.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAnimation.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAnimationCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCAtlasNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccCArray.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCClippingNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCComponent.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCComponentContainer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCConfiguration.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDirector.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDrawingPrimitives.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDrawNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEvent.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventAcceleration.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventCustom.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventDispatcher.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventKeyboard.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListener.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListenerAcceleration.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListenerCustom.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListenerKeyboard.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListenerMouse.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventListenerTouch.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventMouse.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCEventTouch.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFont.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFontAtlas.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFontAtlasCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFontCharMap.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFontFNT.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFontFreeType.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccFPSImages.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGLProgram.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccGLStateCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGrabber.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGrid.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCNodeGrid.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCIMEDispatcher.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLabel.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLabelAtlas.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLabelBMFont.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLabelTextFormatter.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLabelTTF.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCLayer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCMenu.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCMenuItem.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCMotionStreak.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCParallaxNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCParticleBatchNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCParticleExamples.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCParticleSystem.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCParticleSystemQuad.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCProfiling.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCProgressTimer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCRenderTexture.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCScene.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCScheduler.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCScriptSupport.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCShaderCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccShaders.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSprite.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSpriteBatchNode.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSpriteFrame.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSpriteFrameCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTextFieldTTF.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTexture2D.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTextureAtlas.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTextureCache.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTileMapAtlas.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTMXLayer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTMXObjectGroup.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTMXTiledMap.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTMXXMLParser.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTouch.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTransition.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTransitionPageTurn.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTransitionProgress.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccTypes.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCTweenFunction.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCUserDefault.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccUTF8.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ccUtils.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCVertex.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\cocos2d.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGLViewProtocol.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFileUtils.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCImage.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCSAXParser.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCThread.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGLView.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCApplication.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCCommon.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCDevice.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFileUtilsWin32.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCStdC.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCBatchCommand.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCCustomCommand.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCFrustum.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCGroupCommand.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCMaterialManager.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCQuadCommand.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCRenderCommand.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCRenderer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\CCRenderMaterial.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\TGAlib.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\TransformUtils.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\2d\Debug.win32\ZipUtils.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\audio\proj.win32\Debug.win32\MciPlayer.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\cocos\audio\proj.win32\Debug.win32\SimpleAudioEngine.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\chipmunk.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpArbiter.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpArray.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpBB.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpBBTree.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpBody.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpCollision.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpHashSet.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpPolyShape.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpShape.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpace.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpaceComponent.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpaceHash.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpaceQuery.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpaceStep.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSpatialIndex.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSweep1D.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpVect.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpConstraint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpDampedRotarySpring.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpDampedSpring.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpGearJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpGrooveJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpPinJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpPivotJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpRatchetJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpRotaryLimitJoint.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSimpleMotor.obj
+         F:\git_MyProject\cocos\OurProject\cocos2d\external\chipmunk\proj.win32\Debug.win32\cpSlideJoint.obj
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapimin.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapistd.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcarith.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcparam.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcparam.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatadst.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcinit.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcinit.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmaster.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmarker.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmainct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcprepct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccoefct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccolor.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcsample.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jchuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jchuff.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcdctmgr.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctfst.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctflt.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctint.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapimin.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapistd.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdarith.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatasrc.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmaster.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdinput.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdinput.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmarker.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdhuff.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmainct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcoefct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdpostct.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jddctmgr.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctfst.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctflt.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctint.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdsample.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcolor.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant1.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant1.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant2.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant2.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmerge.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jaricom.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jaricom.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcomapi.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jutils.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jutils.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jerror.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jerror.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemmgr.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemnobs.obj)”或在“F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         OurProject.vcxproj -> F:\git_MyProject\cocos\OurProject\proj.win32\Debug.win32\OurProject.exe
+     1>已完成生成项目“F:\git_MyProject\cocos\OurProject\proj.win32\OurProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:29.96

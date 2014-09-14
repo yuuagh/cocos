@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{f0849a79-08e8-44f1-9956-b3c2d3d67313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\homePage">
+      <UniqueIdentifier>{0ce43335-1f7b-419f-9cf7-98d9cf416a59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParserManager.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TxtReader.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameUILayer.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GuiMgr.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GuiMgr_HomePage.cpp">
+      <Filter>Classes\homePage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HomePage.cpp">
+      <Filter>Classes\homePage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameStruct.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Parser.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParserManager.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StructProgramInResource.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TxtReader.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUILayer.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GuiMgr.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HomePage.h">
+      <Filter>Classes\homePage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
